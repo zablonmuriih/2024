@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A400%2C500%2C600"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C600"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A500"/>
+    <link rel="stylesheet" href="./styles/expert-contact.css"/>
+</head>
+<body>
+    <div class="contactus">
+        <div class="auto">
+            <div class="auto1">
+                <a href="index.php"><img class="logo" src="./assets/logomain.png"/></a>
+                <p class="intouch">Get in touch</p>
+                <p class="freeto">Feel free to contact us any time. We will get back to you as soon as we can!</p>
+            </div>
+
+            <div class="form-container">
+                <div class="fullname">
+                    <p class="full-name">Full Name</p>
+                    <input type="text" class="input" placeholder="Jane Doe">
+                </div>
+
+                <div class="email">
+                    <p class="email-field">Email</p>
+                    <input type="email" class="input" placeholder="Enter your email">
+                </div>
+
+                <div class="phone">
+                    <p class="phone-number">Phone Number</p>
+                    <input type="tel" class="input" placeholder="Enter your phone number">
+                </div>
+
+                <div class="message">
+                    <p class="message-">Message</p>
+                    <textarea class="input-message" placeholder="Start typing......."></textarea>
+                </div>
+
+                <button class="sendmessage">Send Message</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

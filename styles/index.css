@@ -1,0 +1,1666 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+.index {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #edf7ee;
+  }
+  .index .navbar {
+    box-sizing: border-box;
+    padding: 2rem 12rem;
+    width: auto;
+    height: 9.1rem;
+    display: flex;
+    column-gap: 13.3rem;
+    align-items: center;
+    background-color: #1a2f41;
+    flex-shrink: 0;
+  }
+  .index .navbar .logo {
+    width: 16.8rem;
+    height: 4.5rem;
+    cursor: pointer;
+    object-fit: cover;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  .index .navbar .nav {
+    margin: 1.6rem 0rem 1.5rem 0rem;
+    height: calc(100% - 3.1rem);
+    display: flex;
+    column-gap: 7.4rem;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .index .navbar .nav .home {
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.2125;
+    color: #f6f5ef;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .index .navbar .nav .experts {
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.2125;
+    color: #f6f5ef;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .index .navbar .nav .about-us {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.2125;
+    color: #f6f5ef;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .index .navbar .nav .contact-us {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.2125;
+    color: #f6f5ef;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .index .navbar .buttons {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .index .navbar .buttons .create {
+    margin-right: 2.3rem;
+    width: 16.8rem;
+    height: 5rem;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.2125;
+    color: #1a2f41;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffec00;
+    border-radius: 0.8rem;
+    flex-shrink: 0;
+  }
+  .index .navbar .buttons .create:hover { 
+    background: #177300; 
+    color: #fff;
+  }
+
+  .index .navbar .buttons .login {
+    width: 9.1rem;
+    height: 5rem;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.2125;
+    color: #ffec00;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 0.2rem #ffec00;
+    box-sizing: border-box;
+    border-radius: 0.8rem;
+    flex-shrink: 0;
+  }
+
+  .index .navbar .buttons .login:hover { 
+    background: #177300; 
+    color: #fff;
+    border: #177300;
+  }
+
+.index .card {
+  box-sizing: border-box;
+  padding: 6.1rem 24.6rem 7.2rem 26.6rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.index .card .overlay {
+  margin: 0rem 5.9rem 6.8rem 5.9rem;
+  box-sizing: border-box;
+  padding: 4rem 8.4rem 4rem 8rem;
+  width: 80rem;
+  height: 34.6rem;
+  display: flex;
+  align-items: center;
+  background-color: #c8e6c9;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.index .card .overlay .hero {
+  margin-right: 7.6rem;
+  width: 33.8rem;
+  height: 26.6rem;
+  background-color: #d9d9d9;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/sheep.png');
+  border-radius: 1.8rem 0.4rem 1.8rem 0.4rem;
+  flex-shrink: 0;
+}
+.index .card .overlay .expert {
+  margin: 4.8rem 0;
+  width: 23.2rem;
+  height: calc(100% - 9.6rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.index .card .overlay .expert .are {
+  margin-bottom: 2rem;
+  max-width: 23.2rem;
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 1.2102272851;
+  color: #1a2f41;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.index .card .overlay .expert .are .farmer {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #1a2f41;
+  font-family: Inter, 'Source Sans Pro';
+}
+.index .card .overlay .expert .are .farmer1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #1a2f41;
+  font-family: Inter, 'Source Sans Pro';
+}
+.index .card .overlay .expert .are .farmer2 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #177300;
+  font-family: Inter, 'Source Sans Pro';
+}
+.index .card .overlay .expert .appoint {
+  margin: 0 1.25rem;
+  width: calc(100% - 2.5rem);
+  height: 4.3rem;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #f5f5f5;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #177300;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+
+.index .card .overlay .expert .appoint:hover{
+  background: #1a2f41; 
+  color: #fff;
+}
+
+.index .card .look {
+    margin: 0rem 0rem 2.7rem 0.1rem;
+    max-width: 45rem;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.2102272511;
+    color: #182b3b;
+    font-family: Inter, 'Source Sans Pro';
+    flex-shrink: 0;
+  }
+  .index .card .look .look0 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    color: #182b3b;
+    font-family: Inter, 'Source Sans Pro';
+  }
+  .index .card .look .look1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 1.2125;
+    color: #177300;
+    font-family: Inter, 'Source Sans Pro';
+  }
+  .index .card .look .look2 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    color: #182b3b;
+    font-family: Inter, 'Source Sans Pro';
+  }
+  .index .card .content {
+    margin: 0rem 0.7rem 7.1rem 0rem;
+    max-width: 92.1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6000000238;
+    letter-spacing: 0.032rem;
+    color: #575757;
+    font-family: Inter, 'Source Sans Pro';
+    flex-shrink: 0;
+  }
+
+  .index .card .section1 {
+    margin: 0rem 0.1rem 9.8rem 4.4rem;
+    width: calc(100% - 4.5rem);
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .index .card .section1 .image1 {
+    margin-right: 8rem;
+    width: 38.6rem;
+    height: 30rem;
+    background-color: #d9d9d9;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/image1.png');
+    border-radius: 2.4rem;
+    flex-shrink: 0;
+  }
+  .index .card .section1 .h1 {
+    margin: 5.35rem 0rem 5.55rem 0rem;
+    height: calc(100% - 10.9rem);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .index .card .section1 .h1 .heading1 {
+    margin-bottom: 0.8rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.6000000636;
+    color: #182b3b;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .index .card .section1 .h1 .content1 {
+    max-width: 41.7rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6000000238;
+    color: #182b3b;
+    font-family: Inter, 'Source Sans Pro';
+    flex-shrink: 0;
+  }
+
+  .index .card .section2 {
+    margin: 0rem 0rem 9.8rem 4.4rem;
+    width: calc(100% - 4.4rem);
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .index .card .section2 .h2 {
+    margin: 4.05rem 8.7rem 4.25rem 0rem;
+    height: calc(100% - 8.3rem);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .index .card .section2 .h2 .heading2 {
+    margin-bottom: 0.8rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.6000000636;
+    color: #182b3b;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .index .card .section2 .h2 .content2 {
+    max-width: 41.1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6000000238;
+    color: #182b3b;
+    font-family: Inter, 'Source Sans Pro';
+    flex-shrink: 0;
+  }
+  .index .card .section2 .image2 {
+    width: 38.6rem;
+    height: 30rem;
+    background-color: #d9d9d9;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/image2.png');
+    border-radius: 2.4rem;
+    flex-shrink: 0;
+  }
+
+  .index .card .section3 {
+    margin: 0rem 0.3rem 9.8rem 4.4rem;
+    width: calc(100% - 4.7rem);
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .index .card .section3 .image3 {
+    margin-right: 8rem;
+    width: 38.6rem;
+    height: 30rem;
+    background-color: #d9d9d9;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/image3.png');
+    border-radius: 2.4rem;
+    flex-shrink: 0;
+  }
+  .index .card .section3 .h3 {
+    margin: 4.05rem 0rem 6.85rem 0rem;
+    height: calc(100% - 10.9rem);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .index .card .section3 .h3 .heading3 {
+    margin-bottom: 0.8rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.6000000636;
+    color: #182b3b;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .index .card .section3 .h3 .content3 {
+    max-width: 41.5rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6000000238;
+    color: #182b3b;
+    font-family: Inter, 'Source Sans Pro';
+    flex-shrink: 0;
+  }
+  
+  .index .card .section4 {
+    margin: 0rem 0rem 6rem 4.4rem;
+    width: calc(100% - 4.4rem);
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .index .card .section4 .h4 {
+    margin: 5.35rem 8rem 5.55rem 0rem;
+    height: calc(100% - 10.9rem);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .index .card .section4 .h4 .heading4 {
+    margin-bottom: 0.8rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.6000000636;
+    color: #182b3b;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .index .card .section4 .h4 .content4 {
+    max-width: 41.8rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6000000238;
+    color: #182b3b;
+    font-family: Inter, 'Source Sans Pro';
+    flex-shrink: 0;
+  }
+  .index .card .section4 .image4 {
+    width: 38.6rem;
+    height: 30rem;
+    background-color: #d9d9d9;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/image4.png');
+    border-radius: 2.4rem;
+    flex-shrink: 0;
+  }
+
+  .index .card .join {
+    margin: 0rem 0rem 2.3rem 4.5rem;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    color: #182b3b;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .index .card .create {
+    margin: 0rem 34rem 0rem 38.4rem;
+    width: 24rem;
+    height: 4.3rem;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    color: #e8eaec;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #177300;
+    border-radius: 0.8rem;
+    flex-shrink: 0;
+  }
+
+  .index .card .create:hover{
+    background: #ffec00; 
+    color: #fff;
+  }
+
+  .index .footer {
+    box-sizing: border-box;
+    padding: 4rem 12rem 3.9rem 12rem;
+    width: 100%;
+    height: 24.9rem;
+    display: flex;
+    align-items: center;
+    background-color: #1a2f41;
+    flex-shrink: 0;
+  }
+  .index .footer .logo {
+    margin: 0rem 25.9rem 0.1rem 0rem;
+    width: 12.8rem;
+    height: 3.5rem;
+    object-fit: cover;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  .index .footer .foot {
+    height: 100%;
+    display: flex;
+    column-gap: 24.6rem;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .index .footer .foot .company {
+    width: 8.5rem;
+    height: 100%;
+    flex-shrink: 0;
+  }
+  .index .footer .foot .company .sec1 {
+    margin-bottom: 2.3rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+  }
+  .index .footer .foot .company .footnav {
+    width: 100%;
+    row-gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .index .footer .foot .company .footnav .home {
+    width: 100%;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .index .footer .foot .company .footnav .experts {
+    width: 100%;
+    cursor: pointer;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .index .footer .foot .company .footnav .about {
+    width: 100%;
+    cursor: pointer;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .index .footer .foot .company .footnav .contact {
+    width: 100%;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .index .footer .foot .company2 {
+    width: 8.5rem;
+    height: 100%;
+    flex-shrink: 0;
+  }
+  .index .footer .foot .company2 .sec2 {
+    margin-bottom: 2.3rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+  }
+  .index .footer .foot .company2 .footnav {
+    width: 100%;
+    row-gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .index .footer .foot .company2 .footnav .home {
+    width: 100%;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .index .footer .foot .company2 .footnav .experts {
+    width: 100%;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .index .footer .foot .company2 .footnav .about {
+    width: 100%;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .index .footer .foot .company2 .footnav .contact {
+    width: 100%;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .index .footer .foot .social {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .index .footer .foot .social .socialname {
+    margin-bottom: 2.3rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .index .footer .foot .social .footnav {
+    width: 7.6rem;
+    row-gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .index .footer .foot .social .footnav .instagram {
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .index .footer .foot .social .footnav .facebook {
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .index .footer .foot .social .footnav .x {
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .index .footer .foot .social .footnav .snapchat {
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  /* ABOUT US PAGE */
+
+  .aboutus {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #edf7ee;
+  }
+  .aboutus .navbar {
+    box-sizing: border-box;
+    padding: 2rem 12rem;
+    width: 100%;
+    height: 9.1rem;
+    display: flex;
+    column-gap: 13.3rem;
+    align-items: center;
+    background-color: #1a2f41;
+    flex-shrink: 0;
+  }
+  .aboutus .navbar .logo {
+    width: 16.8rem;
+    height: 4.5rem;
+    cursor: pointer;
+    object-fit: cover;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  .aboutus .navbar .nav {
+    margin: 1.6rem 0rem 1.5rem 0rem;
+    height: calc(100% - 3.1rem);
+    display: flex;
+    column-gap: 7.4rem;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .aboutus .navbar .nav .home {
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.2125;
+    color: #f6f5ef;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .navbar .nav .experts {
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.2125;
+    color: #f6f5ef;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .navbar .nav .about-us {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.2125;
+    color: #f6f5ef;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .navbar .nav .contact-us {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.2125;
+    color: #f6f5ef;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .aboutus .navbar .buttons {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .aboutus .navbar .buttons .create {
+    margin-right: 2.3rem;
+    width: 16.8rem;
+    height: 5rem;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.2125;
+    color: #1a2f41;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffec00;
+    border-radius: 0.8rem;
+    flex-shrink: 0;
+  }
+
+  .aboutus .navbar .buttons .create:hover { 
+    background: #177300; 
+    color: #fff;
+  }
+
+  .aboutus .navbar .buttons .login {
+    width: 9.1rem;
+    height: 5rem;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.2125;
+    color: #ffec00;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content:center;
+    border: solid 0.2rem #ffec00;
+    box-sizing: border-box;
+    border-radius: 0.8rem;
+    flex-shrink: 0;
+  }
+
+  .aboutus .navbar .buttons .login:hover { 
+    background: #177300; 
+    color: #fff;
+    border: #177300;
+  }
+
+  .aboutus .autos {
+    box-sizing: border-box;
+    padding: 6rem 21rem 14rem 20.4rem;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: center;
+  }
+
+  .aboutus .autos .auto1 {
+    margin: 0rem 1.3rem 5.6rem 0rem;
+    width: 24rem;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+
+  .aboutus .autos .auto1 .auto2 {
+    margin: 1.8rem 6rem 0rem 0rem;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .aboutus .autos .auto1 .auto2 .logo {
+    margin-bottom: 5.1rem;
+    width: 16.8rem;
+    height: 4.5rem;
+    object-fit: cover;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  .aboutus .autos .auto1 .auto2 .mission {
+    margin-bottom: 0.7rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.6000000636;
+    letter-spacing: 0.024rem;
+    color: #182b3b;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .autos .auto1 .auto2 .mission-content {
+    max-width: 47.3rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6000000238;
+    letter-spacing: 0.016rem;
+    color: #485967;
+    font-family: Inter, 'Source Sans Pro';
+    flex-shrink: 0;
+  }
+
+  .aboutus .autos .auto1 .vision {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .aboutus .autos .auto1 .vision .vision1 {
+    margin-bottom: 0.7rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.6000000636;
+    letter-spacing: 0.024rem;
+    color: #182b3b;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .autos .auto1 .vision .vision-content {
+    max-width: 48rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6000000238;
+    letter-spacing: 0.016rem;
+    color: #485967;
+    font-family: Inter, 'Source Sans Pro';
+    flex-shrink: 0;
+  }
+
+  .aboutus .autos .farmify-content {
+    margin: 0rem 0rem 3.5rem 0.7rem;
+    max-width: 35.4rem;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.6000000636;
+    letter-spacing: 0.024rem;
+    color: #182b3b;
+    font-family: Inter, 'Source Sans Pro';
+    flex-shrink: 0;
+  }
+  .aboutus .autos .farmify-content .farmify-heading {
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 1.3714286259;
+    letter-spacing: 0.024rem;
+    color: #177300;
+    font-family: Inter, 'Source Sans Pro';
+  }
+  
+  .aboutus .autos .farmify-cont {
+    margin: 0rem 0rem 12.4rem 0.6rem;
+    max-width: 101.4rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6000000238;
+    letter-spacing: 0.016rem;
+    color: #485967;
+    font-family: Inter, 'Source Sans Pro';
+    flex-shrink: 0;
+  }
+  
+  .aboutus .autos .farmify-cont .farmify-cont {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.6000000238;
+    letter-spacing: 0.016rem;
+    color: #182b3b;
+    font-family: Inter, 'Source Sans Pro';
+  }
+  
+  .aboutus .autos .farmify-cont .farmify-abt .farmify-abt1 .farmify-abt2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.6000000238;
+    letter-spacing: 0.016rem;
+    color: #182b3b;
+    font-family: Inter, 'Source Sans Pro';
+  }
+
+  .aboutus .autos .mgt1 {
+    margin: 0rem 9rem 6rem 9.6rem;
+    width: calc(100% - 18.6rem);
+    height: 26.4rem;
+    display: flex;
+    column-gap: 12rem;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .aboutus .autos .mgt1 .founder {
+    width: 20rem;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .aboutus .autos .mgt1 .founder .zab {
+    margin-bottom: 1.2rem;
+    width: 100%;
+    height: 20rem;
+    background-color: #d9d9d9;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/zab-bg.png');
+    border-radius: 1.6rem;
+    flex-shrink: 0;
+  }
+  .aboutus .autos .mgt1 .founder .descrip {
+    margin: 0 4.05rem;
+    width: calc(100% - 8.1rem);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .aboutus .autos .mgt1 .founder .descrip .zablon {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.6000000238;
+    letter-spacing: 0.016rem;
+    color: #182b3b;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .autos .mgt1 .founder .descrip .founder {
+    margin-left: 0.1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.6000000238;
+    letter-spacing: 0.016rem;
+    color: #667480;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+
+  .aboutus .autos .mgt1 .ceo {
+    width: 20rem;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .aboutus .autos .mgt1 .ceo .fid {
+    margin-bottom: 1.2rem;
+    width: 100%;
+    height: 20rem;
+    background-color: #d9d9d9;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/fidel-bg.png');
+    border-radius: 1.6rem;
+    flex-shrink: 0;
+  }
+  .aboutus .autos .mgt1 .ceo .descrip {
+    margin: 0 1rem;
+    width: calc(100% - 2rem);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .aboutus .autos .mgt1 .ceo .descrip .fidel {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.6000000238;
+    letter-spacing: 0.016rem;
+    color: #182b3b;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .autos .mgt1 .ceo .descrip .ceo1 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.6000000238;
+    letter-spacing: 0.016rem;
+    color: #667480;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  
+  .aboutus .autos .mgt1 .coo {
+    width: 20rem;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .aboutus .autos .mgt1 .coo .filoz {
+    margin-bottom: 1.2rem;
+    width: 100%;
+    height: 20rem;
+    background-color: #d9d9d9;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/filoza-bg.png');
+    border-radius: 1.6rem;
+    flex-shrink: 0;
+  }
+  .aboutus .autos .mgt1 .coo .descrip {
+    margin: 0rem 0.4rem 0rem 0.5rem;
+    width: calc(100% - 0.9rem);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .aboutus .autos .mgt1 .coo .descrip .filoza {
+    margin-right: 0.1rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.6000000238;
+    letter-spacing: 0.016rem;
+    color: #182b3b;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .autos .mgt1 .coo .descrip .coo1 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.6000000238;
+    letter-spacing: 0.016rem;
+    color: #667480;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .aboutus .autos .get-expert {
+    margin-left: 0.8rem;
+    max-width: 101.8rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6000000238;
+    letter-spacing: 0.016rem;
+    color: #485967;
+    font-family: Inter, 'Source Sans Pro';
+    flex-shrink: 0;
+  }
+  .aboutus .autos .get-expert .get-expert0 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.6000000238;
+    letter-spacing: 0.016rem;
+    color: #182b3b;
+    font-family: Inter, 'Source Sans Pro';
+  }
+
+  .aboutus .autos .get-expert .get-expert1 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6000000238;
+    letter-spacing: 0.016rem;
+    color: #485967;
+    font-family: Inter, 'Source Sans Pro';
+  }
+  .aboutus .autos .get-expert .get-expert2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.6000000238;
+    letter-spacing: 0.016rem;
+    color: #182b3b;
+    font-family: Inter, 'Source Sans Pro';
+  }
+
+  .aboutus .autos .get-expert .get-expert3 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6000000238;
+    letter-spacing: 0.016rem;
+    color: #485967;
+    font-family: Inter, 'Source Sans Pro';
+  }
+
+  /* /* /* 
+/* FOOTER SECTION */
+
+/* .aboutus .footer {
+    /* box-sizing: border-box;
+    padding: 4rem 12rem 3.9rem 12rem;
+    width: 100%;
+    height: 24.9rem;
+    display: flex;
+    align-items: center;
+    background-color: #1a2f41;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .logo {
+    margin: 0rem 25.9rem 0.1rem 0rem;
+    width: 12.8rem;
+    height: 3.5rem;
+    object-fit: cover;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot {
+    height: 100%;
+    display: flex;
+    column-gap: 24.6rem;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .company {
+    width: 8.5rem;
+    height: 100%;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .company .sec1 {
+    margin-bottom: 2.3rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+  }
+  .aboutus .footer .foot .company .footnav {
+    width: 100%;
+    row-gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutus .footer .foot .company .footnav .home {
+    width: 100%;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .company .footnav .experts {
+    width: 100%;
+    cursor: pointer;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .company .footnav .about {
+    width: 100%;
+    cursor: pointer;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .company .footnav .contact {
+    width: 100%;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .aboutus .footer .foot .company2 {
+    width: 8.5rem;
+    height: 100%;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .company2 .sec2 {
+    margin-bottom: 2.3rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+  }
+  .aboutus .footer .foot .company2 .footnav {
+    width: 100%;
+    row-gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutus .footer .foot .company2 .footnav .home {
+    width: 100%;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .company2 .footnav .experts {
+    width: 100%;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .company2 .footnav .about {
+    width: 100%;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .company2 .footnav .contact {
+    width: 100%;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .aboutus .footer .foot .social {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .social .socialname {
+    margin-bottom: 2.3rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .social .footnav {
+    width: 7.6rem;
+    row-gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .social .footnav .instagram {
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .social .footnav .facebook {
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .social .footnav .x {
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .social .footnav .snapchat {
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;}
+  */
+
+  .aboutus .footer {
+    box-sizing: border-box;
+    padding: 4rem 12rem 3.9rem 12rem;
+    width: auto;
+    height: 24.9rem;
+    display: flex;
+    align-items: center;
+    background-color: #1a2f41;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .logo {
+    margin: 0rem 25.9rem 0.1rem 0rem;
+    width: 12.8rem;
+    height: 3.5rem;
+    object-fit: cover;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot {
+    height: 100%;
+    display: flex;
+    column-gap: 24.6rem;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .company {
+    width: 8.5rem;
+    height: 100%;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .company .sec1 {
+    margin-bottom: 2.3rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+  }
+  .aboutus .footer .foot .company .footnav {
+    width: 100%;
+    row-gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutus .footer .foot .company .footnav .home {
+    width: 100%;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .company .footnav .experts {
+    width: 100%;
+    cursor: pointer;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .company .footnav .about {
+    width: 100%;
+    cursor: pointer;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .company .footnav .contact {
+    width: 100%;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .aboutus .footer .foot .company2 {
+    width: 8.5rem;
+    height: 100%;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .company2 .sec2 {
+    margin-bottom: 2.3rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+  }
+  .aboutus .footer .foot .company2 .footnav {
+    width: 100%;
+    row-gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutus .footer .foot .company2 .footnav .home {
+    width: 100%;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .company2 .footnav .experts {
+    width: 100%;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .company2 .footnav .about {
+    width: 100%;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .company2 .footnav .contact {
+    width: 100%;
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .aboutus .footer .foot .social {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .social .socialname {
+    margin-bottom: 2.3rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .social .footnav {
+    width: 7.6rem;
+    row-gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .social .footnav .instagram {
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .social .footnav .facebook {
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .social .footnav .x {
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .aboutus .footer .foot .social .footnav .snapchat {
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2125;
+    color: #ffffff;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
